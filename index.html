@@ -3,18 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>javad.io</title>
 
+    <!--stylesheet-->
     <link rel="stylesheet" href="style.css">
+
+    <!--script-->
+    <script href="script.js"></script>
+
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
 
+</body>
 
+
+
+
+<!--navbar-->
 
     <header class="header">
 
 
         <a href="#" class="logo">portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
@@ -26,6 +41,158 @@
 
 
     </header>
+
+
+
+              <!--Home section-->
+
+
+
+
+    <section class="home" id="home">
+
+        <div class="home-contant">
+            <h3>Hello it's me</h3>
+            <h1>Javad Mohammed</h1>
+            <h3>And I'am a <span>Rust Developer</span></h3>
+            <p>iam learning the rust language basicaly i learned some basics from the educative 
+                it's a website containing a bunch of cources
+            </p>
+
+
+            <div class="social-media">
+                <a href="https://www.instagram.com/javaadde/"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/javad-muhammed-995a85329/"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://github.com/javaadde"><i class='bx bxl-github'></i></a>
+                <a href="https://t.me/javaadde"><i class='bx bxl-telegram' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        
+        <div class="home-image">
+            <img src="images/IMG_7126-modified.png" alt="" id="img">
+        </div>
+
+    </section>
+
+
+
+                 <!--About Section-->
+
+
+
+
+    <section class="about" id="about">
+
+        <div class="about-img">
+            <img src="images/IMG_7126-modified-removebg-preview.png" alt="">
+        </div>
+
+        <div class="about-contant">
+            <h2 class="heading">
+                About
+                <span>Me</span>
+            </h2>
+            <h3> <i class='bx bxs-polygon' ></i>  Rust Developer</h3>
+            <p>  <i class='bx bxs-polygon' ></i>  I'am learning the rust language basicaly <br>
+                 <i class='bx bxs-polygon' ></i>  I learned some basics from the educative it's a website containing a bunch of cources <br>
+                 <i class='bx bxs-polygon' ></i>  And I'am also an <span>Git Expert</span><br>
+                 <i class='bx bxs-polygon' ></i>  I can also Do <span> Frontend Developing</span></p><br>
+                <a href="#" class="btn">Read more</a>
+
+        </div>
+
+
+    </section>
+
+
+
+                             <!--Protfolio Section-->          
+
+
+         <section class="portfolio" id="portfolio">
+
+            <h2 class="headding">Latest <span>Project</span></h2>
+
+            <div class="portfolio-container">
+
+                <div class="portfoliio-box">
+                    <img src="images/project-1.jpg" alt="">
+
+                    <div class="protfolio-layer">
+                           <h4><span>C</span>alculator</h4>
+                           <p>a basic calculator only and thats desingn <br>
+                               with backend it avilable on git</p>
+                        <a href=" https://javaadde.github.io/Calculator/"><i class='bx bx-link' ></i>  https://javaadde.github.io/Calculator/ </a>       
+                    </div>
+                </div>
+
+
+                <div class="portfoliio-box">
+                    <img src="images/project-2.webp" alt="">
+
+                    <div class="protfolio-layer">
+                           <h4><span>E-</span>Commerce Website</h4>
+                           <p>a small e commerce website only containing the frontend</p>
+                        <a href="https://javaadde.github.io/greenapplestore/"><i class='bx bx-link' ></i> https://javaadde.github.io/greenapplestore/ </a>       
+                    </div>
+                </div>
+
+
+
+                <div class="portfoliio-box">
+                    <img src="images/project-3.jpeg" alt="">
+
+                    <div class="protfolio-layer">
+                           <h4><span>L</span>oading</h4>
+                           <p>...etc</p>
+                        <a href="#protfolio"><i class='bx bx-link' ></i>  </a>       
+                    </div>
+                </div>
+
+
+
+                <div class="portfoliio-box">
+                    <img src="images/project-4.jpeg" alt="">
+
+                    <div class="protfolio-layer">
+                           <h4><span>L</span>oading</h4>
+                           <p>...etc</p>
+                        <a href="#protfolio"><i class='bx bx-link' ></i>  </a>       
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+         </section>     
+         
+         
+         <!--Contact Section-->
+
+         <section class="contact" id="contact">
+            <h2 class="headding">
+               contact <span>Me</span>
+            </h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+         </section>
 
 
 </body>

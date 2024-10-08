@@ -11,6 +11,7 @@
 
 :root{
     --bg-color:#000;
+    --sec-bg-color:rgb(28, 27, 27);
     --text-color:#fff;
     --main-color:#3fb3dd;
 }
@@ -23,6 +24,11 @@ html{
 body{
     background: var(--bg-color);
     color: var(--text-color);
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
 }
 
 .header{
@@ -54,4 +60,242 @@ body{
 .navbar a:hover,
 .navbar a.active{
     color: var(--main-color);
+}
+
+#menu-icon{
+    font-size: 45px;
+    color: var(--text-color);
+    display: none;
+}
+
+
+
+.home-image img{
+    width: 550px;
+    border-radius: 50%;
+    border: 6px solid var(--main-color);
+    box-shadow:0 0 70px var(--main-color);
+
+}
+.home-image img:hover{
+    border: 2px solid var(--bg-color);
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-contant{
+    margin-right: 200px;
+}
+
+.home-contant h3 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+.home-contant h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: rgb(16, 197, 133);
+}
+
+.home-contant p{
+    font-size: 23px;
+    font-weight: 700;
+}
+.home-contant span{
+    color: red;
+}
+
+.social-media i{
+    font-size: 55px;
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--main-color);
+    margin: 3opx 15px 30px 0px;
+    margin-top: 20px;
+  
+}
+
+.social-media a:hover{
+    background: var(--main-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 28px;
+    margin-top: 35px;
+    background: var(--main-color);
+    border-radius: 40PX;
+    box-shadow: 0 0 10PX var(--main-color);
+    font-size: 16px;
+    color: var(--bg-color);
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+.about-img img{
+    background-color: var(--main-color);
+    border-radius: 50%;
+    margin-right: 140px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background:var(--sec-bg-color) ;
+
+}
+
+.about-contant{
+    margin-left: 50px;
+}
+.about-contant h2{
+    font-size: 30px;
+}
+
+.about-contant span{
+    color: var(--main-color);
+}
+
+.about-contant h3{
+    font-size: 24px;
+    color: red;
+    font-weight: 700;
+    line-height: 1.9;
+}
+
+.about-contant p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.about-contant p i{
+    color: var(--main-color);
+}
+
+
+
+
+
+.portfolio{
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio h2{
+    font-size: 62px;
+   margin-left: 40%;
+   line-height: 2.7;
+}
+.portfolio span{
+    color: var(--main-color);
+}
+
+
+.protfolio-layer{
+    margin-bottom: 100px;
+}
+
+.protfolio-layer h4{
+  font-size: 42px;
+}
+
+.protfolio-layer p{
+    font-size: medium;
+    font-weight: 600;
+}
+
+
+
+.protfolio-layer i{
+    font-size: 35px;
+    color: var(--main-color);
+}
+
+.protfolio-layer a{
+    font-size: 15px;
+    color: var(--main-color);
+}
+
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center   ;
+  gap: 20px;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.portfoliio-box img{
+    margin-top: 100px;
+    margin-left: 6%;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.contact{
+
+    background-color: var(--sec-bg-color);
+    text-align: center;
+}
+.contact h2{
+    font-size: 62px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+span{
+    color: var(--main-color);
+}
+
+form{
+    max-width: 700px;
+    margin: auto;
+}
+
+.contact form .input-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: var(--text-color);
+    background: var(--bg-color);
+    border-radius: 8px;
+    margin-top: 12px;
 }
