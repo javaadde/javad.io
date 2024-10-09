@@ -329,9 +329,7 @@ form{
         left:0px;
         right: 0px;
      min-height:0vh;
-     text-align: center;
-     justify-content: center;
-     align-items: center;
+     
      padding-left: 0;
      padding-right: 0;
 
@@ -413,27 +411,32 @@ form{
     font-size: 20px;
   }
   .protfolio-layer p{
-     font-size: 4px;
+     font-size: 8px;
   }
 
   .protfolio-layer a{
-    font-size: 6px;
+    font-size: 12px;
     text-align: center;
   }
   .protfolio-layer i{
-    font-size: 8px;
+    font-size: 18px;
   }
+  .protfolio-layer{
+    margin-top: -100px;
+    position: absolute;
+
+}
 
   .portfolio-container{
     display: flex; 
     flex-wrap: wrap;
   }
 
-  .protfolio-layer{
-    text-align: center;
-    align-items: center ;
-    justify-content: center;
-  }
+  .portfolio-container .protfolio-layer{
+margin-left: -20px;
+border-radius: 30px;
+
+}
 
 
   .portfolio h2{
@@ -442,14 +445,16 @@ form{
 }
 
 .protfolio-layer{
+    color: #fff;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right:  0px;
 }
 
 .portfoliio-box img{
+    width: 250px;
     margin-top: 20px;
-    margin-left: 25%;
+    margin-left: 15%;
     
 }
 
@@ -463,6 +468,29 @@ form{
     margin-left: 120px;
     display: flex;
 }
+.home img{
+    width: 200px;
+    margin-top: 100px;
+   
+}
+#top-media{
+    background: aquamarine;
+}
+
+.portfolio h2{
+    font-size: 35px;
+    margin-left: 84px;
+}
+
+.contact {
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+}
+.home-contant p span{
+    color: var(--main-color);
+}
+
 
 }
 
