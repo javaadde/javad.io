@@ -490,8 +490,16 @@ border-radius: 30px;
 .home-contant p span{
     color: var(--main-color);
 }
-
-
+.about{
+    background: var(--bg-color);
+}
+.contact{
+    background: var(--bg-color);
+}
+.about img{
+    width: 290px;
+   
+}
 }
 
 
