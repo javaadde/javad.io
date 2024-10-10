@@ -63,11 +63,6 @@ section{
     color: var(--main-color);
 }
 
-#menu-icon{
-    font-size: 45px;
-    color: var(--text-color);
-    display: none;
-}
 
 
 .home-image img{
@@ -249,8 +244,7 @@ section{
 .portfolio-container {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  align-items: center   ;
-  gap: 20px;
+  gap: 50px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -304,10 +298,65 @@ form{
     display: none;
 }
 
+.portfoliio-box img{
+    width: 450px;
+    height: 350px;
+    position: relative;
+
+}
+
+.protfolio-layer{
+    width: 450px;
+    height: 350px;
+    background:linear-gradient(transparent,var(--main-color)) ;
+  margin-top: -340px;
+   margin-left: 180px;
+   position: absolute;
+   border-radius: 30px;
+   padding-top: 140px;
+}
+.contact{
+    padding-top: 350px;
+}
+#m-icon{
+    display: flex;
+    font-size: 30px;
+    color: var(--text-color);
+}
 
 
-
-
+.nav-mob{
+    width: 200px;
+    height: 55vh;
+    background: var(--main-color);
+    margin-left: 160px;
+    padding-top: 60px;
+}
+.nav-mob ul li{
+    gap: 1px;
+    padding-top: 40px;
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--text-color);
+    margin-left: 50px;
+}
+#m-i{
+    font-size: 40px;
+    margin-left: 40px;
+    display: flex;
+    display: none;
+}
+#nav-mob{
+    display: flex;
+    display: none;
+}
+#m-ci{
+    font-size: 40px;
+    margin-left: 20px;
+    display: flex;
+    display: none;
+}
 
 
 @media (max-width:789px) {
@@ -462,12 +511,7 @@ border-radius: 30px;
     font-size: 25px;
 }
 
-#menu-icon{
-    font-size: 45px;
-    color: var(--text-color);
-    margin-left: 120px;
-    display: flex;
-}
+
 .home img{
     width: 200px;
     margin-top: 100px;
@@ -500,19 +544,54 @@ border-radius: 30px;
     width: 290px;
    
 }
+
+.portfolio-container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfoliio-box img{
+  width: 250px;
+  height: 200px;
+
+}
+
+.protfolio-layer{
+    background: none;
+    
+    margin-top: -240px;
+   
+}
+.portfoliio-box .protfolio-layer{
+    padding-right: 90px;
+    margin-left: -30px;
+}
+
+.contact{
+    padding-top: 50px;
+}
+
+#nav-mob{
+    display: none;
+    
+}
+#nav-mob ul {
+    border:2px solid var(--text-color);
+    width: 200px;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+#m-i{
+    display: flex;
+}
+#m-ci{
+    display: flex;
+    display: none;
 }
 
 
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
