@@ -361,7 +361,7 @@ form{
 
 @media (max-width:789px) {
     *{
-       width: 280px; 
+       width: 380px; 
        margin-left: 10px;
        margin-right: 0;
        box-sizing: border-box;
@@ -599,7 +599,7 @@ border-radius: 30px;
 
 }
 .nav-mob{
-    height: 60vh;
+    height: 80vh;
 }
 
 }
