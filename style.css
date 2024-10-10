@@ -361,7 +361,7 @@ form{
 
 @media (max-width:789px) {
     *{
-       width: 400px; 
+       width: 280px; 
        margin-left: 10px;
        margin-right: 0;
        box-sizing: border-box;
@@ -580,7 +580,7 @@ border-radius: 30px;
     border:2px solid var(--text-color);
     width: 200px;
     margin-left: 0px;
-    margin-top: -10px;
+    margin-top: 0px;
 }
 #m-i{
     display: flex;
@@ -589,7 +589,18 @@ border-radius: 30px;
     display: flex;
     display: none;
 }
+.header{
+    width: 400px;
+}
+.about-contant{
+  justify-content: center;
+  text-align: start;
 
+
+}
+body{
+    width: 420px;
+}
 
 }
 
