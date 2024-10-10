@@ -590,7 +590,7 @@ border-radius: 30px;
     display: none;
 }
 .header{
-    width: 400px;
+    width: 390px;
 }
 .about-contant{
   justify-content: center;
@@ -598,8 +598,8 @@ border-radius: 30px;
 
 
 }
-body{
-    width: 420px;
+.nav-mob{
+    height: 60vh;
 }
 
 }
