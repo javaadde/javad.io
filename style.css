@@ -288,9 +288,13 @@ form{
     padding: 15px;
     font-size: 16px;
     color: var(--text-color);
-    background: var(--bg-color);
+    background: #3b6879;
     border-radius: 8px;
     margin-top: 12px;
+}
+input{
+    text-align: center;
+    
 }
 
 
@@ -342,8 +346,8 @@ form{
     margin-left: 50px;
 }
 #m-i{
-    font-size: 40px;
-    margin-left: 40px;
+    font-size: 50px;
+    margin-left: 70px;
     display: flex;
     display: none;
 }
@@ -352,8 +356,8 @@ form{
     display: none;
 }
 #m-ci{
-    font-size: 40px;
-    margin-left: 20px;
+    font-size: 50px;
+    padding-left: 70px;
     display: flex;
     display: none;
 }
@@ -362,7 +366,7 @@ form{
 @media (max-width:789px) {
     *{
        width: 100%; 
-       margin-left: 10px;
+       margin-left: 0px;
        margin-right: 0;
        box-sizing: border-box;
        text-decoration: none;
@@ -371,18 +375,22 @@ form{
        scroll-behavior: smooth;
        font-family: 'poppins',sans-serif;
   }
-    
+   
     
 
     section{
         left:0px;
         right: 0px;
      min-height:0vh;
-     
+     width: 290px;
      padding-left: 0;
      padding-right: 0;
-
     } 
+    
+    .contact{
+        margin-left: 50px;
+        text-align: center;
+    }
 
     h1{
         font-size: 18px;
@@ -394,28 +402,48 @@ form{
         font-size: 25px;
     }
     .navbar {
-        visibility: hidden;
+     display: none;  
+
     }
    
+
+  
+    
+    
     .home-contant{
         margin-top: 40px;
-        margin-right: 0px;
+        margin-right: -50px;
         margin-left: 0px;
+      
+    }
+    .home .social-media{
+        margin-left: 50px;
+    
+    }
+   
+    .cv-container{
+        margin-left: 80px;
     }
      
     .home-image img{
          display: none;
+        
     }
 
     #top-media{
         display: flex;
         background: var(--main-color);
         border-radius: 50%;
+        margin-left: 100px;
     }
 
     section img{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .about-img{
+        margin-left: 100px;
     }
 
     .home,
@@ -449,15 +477,21 @@ form{
   }
 
   .portfoliio-box img{
-    width: 200px;
+   
+    width: 270px;
+  }
+  .portfoliio-box{
+    margin-left: 35px;
   }
 
-  .portfolio h2{
-    font-size: 25px;
-  }
+ .protfolio-layer{
+    width: 300px;
+    padding-left: 130px;
+    text-align: start;
+}
 
   .protfolio-layer h4{
-    font-size: 20px;
+    font-size: 22px;
   }
   .protfolio-layer p{
      font-size: 8px;
@@ -471,9 +505,9 @@ form{
     font-size: 18px;
   }
   .protfolio-layer{
-    margin-top: -100px;
     position: absolute;
-
+    padding-top: 90px;
+    
 }
 
   .portfolio-container{
@@ -599,7 +633,7 @@ border-radius: 30px;
 
 }
 .nav-mob{
-    height: 60vh;
+    height: 52vh;
 }
 
 }
